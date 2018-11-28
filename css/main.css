@@ -1975,6 +1975,10 @@ nav a:hover {
 }
 
 @media (max-width: 767px) {
+  .banner-area {
+    background: url(../img/banner-bg-mb.jpg) no-repeat center center/cover;
+  }
+
   .banner-area .fullscreen {
     height: 730px !important;
   }
