@@ -16,7 +16,7 @@ h2 {
 	text-transform: uppercase;
 	margin: 0 0 20px 0;
 	font-weight: 800;
-	font-size: 36px;
+	font-size: 24px;
 	color: #333;
 }
 
@@ -235,7 +235,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(https://ws1.sinaimg.cn/large/620603d0ly1fy332btceij21hc0zk784.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -302,8 +302,8 @@ header .intro-text {
 }
 
 #about h3 {
-	font-size: 22px;
-	margin: 0 0 20px 0;
+	font-size: 18px;
+	margin: 0 0 10px 0;
 }
 
 #about h2 {
@@ -325,7 +325,6 @@ header .intro-text {
 #about .about-text li {
 	margin-bottom: 6px;
 	/*margin-left: 6px;*/
-	list-style: disc;
 	padding: 0;
 }
 
@@ -335,12 +334,12 @@ header .intro-text {
 }
 
 #about .about-text li:before {
-	/*content: '\f00c';
+	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #5ca9fb;
 	font-size: 11px;
 	font-weight: 300;
-	padding-right: 8px;*/
+	padding-right: 8px;
 }
 
 #about .about-text .col-lg-12 {
@@ -360,21 +359,21 @@ header .intro-text {
 }
 
 /* Services Section */
-#services {
-	padding: 100px 0;
+#culture {
+	padding: 60px 0 40px;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: #fff;
 }
 
-#services .service-desc {
+#culture .service-desc {
 	margin: 10px 10px 20px;
 }
 
-#services h2 {
+#culture h2 {
 	color: #fff;
 }
 
-#services .section-title h2::after {
+#culture .section-title h2::after {
 	position: absolute;
 	content: "";
 	background: rgba(255, 255, 255, .3);
@@ -385,7 +384,7 @@ header .intro-text {
 	left: 50%;
 }
 
-#services i.fa {
+#culture i.fa {
 	font-size: 42px;
 	width: 120px;
 	height: 120px;
@@ -396,17 +395,17 @@ header .intro-text {
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, .05);
 }
 
-#services h3 {
+#culture h3 {
 	font-weight: 500;
 	padding: 5px 0;
 	color: #fff;
 }
 
-#services p {
+#culture p {
 	color: rgba(255, 255, 255, .75);
 }
 
-#services .service-desc {
+#culture .service-desc {
 	margin-bottom: 40px;
 }
 
@@ -509,21 +508,6 @@ header .intro-text {
 	color: #666;
 }
 
-#culture {
-	padding: 60px 0 80px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	color: rgba(255, 255, 255, .75);
-}
-
-#culture h2, #culture h3 {
-  color: #fff;
-	color: rgba(255, 255, 255, .75);
-}
-
-#culture .culture-item {
-  margin: 20px 0;
-}
-
 /* Team Section */
 #team {
 	padding: 60px 0;
@@ -549,7 +533,7 @@ header .intro-text {
 
 /* Contact Section */
 #contact {
-	padding: 35px 0 25px 0;
+	padding: 45px 0 15px;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 }
 
@@ -790,12 +774,4 @@ display: block;
 position: absolute;
 left: -25px;
 top: -120px;
-}
-
-#culture .fa {
-  font-size: 48px;
-}
-
-#culture h3 {
-  margin-bottom: 20px;
 }
